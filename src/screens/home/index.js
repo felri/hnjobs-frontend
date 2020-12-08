@@ -52,11 +52,6 @@ function Home(props) {
 
   React.useEffect(() => {
     controller.getPieChart(dispatch, yearPie, monthPie);
-    controller.getLineChart(dispatch, yearLine, monthLine, languages);
-  }, []);
-
-  React.useEffect(() => {
-    controller.getPieChart(dispatch, yearPie, monthPie);
   }, [yearPie, monthPie]);
 
   React.useEffect(() => {
