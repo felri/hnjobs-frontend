@@ -1,8 +1,5 @@
 import types from 'store/types';
 
-const DEFAULT_DATE = new Date();
-DEFAULT_DATE.setDate(DEFAULT_DATE.getDate() - 1065);
-
 const initialState = {
   error: false,
   loading: true,
@@ -10,8 +7,8 @@ const initialState = {
     data: [],
   },
   languages: ['JavaScript', 'TypeScript', 'Python'],
-  month: DEFAULT_DATE.getMonth(),
-  year: DEFAULT_DATE.getFullYear(),
+  month: '0',
+  year: 2018,
 };
 
 export default function reducer(state = initialState, action) {

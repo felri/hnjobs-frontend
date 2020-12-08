@@ -52,6 +52,7 @@ function Home(props) {
 
   React.useEffect(() => {
     controller.getPieChart(dispatch, yearPie, monthPie);
+    controller.getJobs(dispatch, yearPie, monthPie);
   }, [yearPie, monthPie]);
 
   React.useEffect(() => {
