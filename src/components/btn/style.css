@@ -1,0 +1,15 @@
+.default-btn {
+  width: 100%;
+  margin: auto;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--main-bg-color);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.default-btn:hover {
+  background: #a0f7fa;
+}

@@ -1,0 +1,31 @@
+.container-header {
+  position: fixed;
+  width: 100%;
+  background: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 200;
+}
+
+.container-input-regex {
+  margin-right: 30px;
+  height: 25px;
+  font-size: 20px;
+  width: 290px;
+  background-color: var(--main-bg-color);
+  border: 1px solid var(--font);
+  border-bottom-left-radius: 5px;
+}
+
+.title-header {
+  font-weight: 800;
+  letter-spacing: 3.2px;
+  font-size: 20px;
+  color: var(--font);
+}
+
+.container-dropdown-header {
+  margin-left: 148px;
+}

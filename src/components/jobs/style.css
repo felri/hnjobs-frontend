@@ -1,0 +1,66 @@
+.container-jobs {
+  border-radius: 10px;
+  margin: 13px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.title-jobs {
+  font-size: 33px;
+  font-weight: 500;
+  background: white;
+  padding-top: 20px;
+  border-left: 1px solid var(--font);
+  scroll-margin-top: 50px;
+}
+
+.search-text-jobs {
+  background: white;
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--font);
+  border-left: 1px solid var(--font);
+  border-bottom-left-radius: 7px;
+}
+
+.container-job {
+  background: white;
+  padding: 10px 20px;
+  text-align: left;
+  border-bottom: 1px solid var(--font);
+  border-left: 1px solid var(--font);
+  margin-top: 33px;
+  padding-bottom: 10px;
+  font-weight: 600;
+  border-bottom-left-radius: 7px;
+  font-size: 16px;
+}
+
+.container-language-list-in-jobs {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.language-selected-in-jobs {
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.container-loading-jobs {
+  padding: 20px;
+  background-color: white;
+  margin-top: 20px;
+  border-bottom-left-radius: 7px;
+  border-bottom: 1px solid var(--font);
+  border-left: 1px solid var(--font);
+}
+
+.by {
+  cursor: pointer;
+}
