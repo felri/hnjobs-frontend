@@ -15,7 +15,7 @@ function Home(props) {
           x: i,
           y: f.percentage,
           count: f.count,
-          label: `${f.month + 1}/${f.year}`,
+          label: `${f.month > 8 ? f.month + 1 : '0' + (f.month + 1)}/${f.year}`,
           name: f.language,
         }));
       list.push(data);
@@ -32,8 +32,7 @@ function Home(props) {
       suffix: '%',
     },
     axisX: {
-      interval: 3,
-      title: 'Date',
+      interval: 7,
     },
     data: lineChart.map((f) => ({
       type: 'spline',
