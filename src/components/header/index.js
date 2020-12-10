@@ -1,6 +1,5 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Months } from 'utils/wordlist';
 import { useDebounce } from 'use-debounce';
 import types from 'store/types';
 import DropDown from 'components/dropDown';
