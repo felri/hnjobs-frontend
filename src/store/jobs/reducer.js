@@ -8,9 +8,21 @@ const initialState = {
   search: '',
 };
 
+function fixRegexText(search, job) {
+  if (search === 'C++' && job) return job.split('+').join('plus');
+  else if (search === 'C#' && job) return job.split('#').join('sharp');
+  else return job;
+}
+
+function fixRegexSearch(search) {
+  if (search === 'C++') return 'Cplusplus';
+  else if (search === 'C#') return 'Csharp';
+  else return search;
+}
+
 const filterJobs = (job, search) => {
-  const regex = new RegExp(`${search}`, 'i');
-  return regex.exec(job) !== null;
+  const regex = new RegExp(`${fixRegexSearch(search)}`, 'i');
+  return regex.exec(fixRegexText(search, job)) !== null;
 };
 
 export default function reducer(state = initialState, action) {

@@ -23,6 +23,18 @@
   border-bottom: 1px solid var(--font);
   border-left: 1px solid var(--font);
   border-bottom-left-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-filter {
+  border-radius: 10px;
+  padding: 4px;
+  border: 1px solid var(--font);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container-job {
@@ -63,4 +75,13 @@
 
 .by {
   cursor: pointer;
+}
+
+.remove-filter {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.search-term {
+  margin-left: 5px;
 }

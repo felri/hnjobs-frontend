@@ -10,7 +10,7 @@ import './style.css';
 const Regex = ({ value, onChange }) => (
   <input
     className='container-input-regex'
-    placeholder='Regex'
+    placeholder='Search'
     value={value}
     onChange={(e) => onChange(e.target.value)}
   />

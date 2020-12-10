@@ -1,4 +1,5 @@
 export default [
+  'React',
   'JavaScript',
   'TypeScript',
   'Python',
@@ -31,7 +32,6 @@ export default [
   'Erlang',
   'Elixir',
   'jQuery',
-  'React.js',
   'Angular',
   'ASP.NET',
   'Express',
@@ -94,4 +94,4 @@ export const Months = [
   'December',
 ];
 
-export const Years = [2020, 2019, 2018];
+export const Years = [2020, 2019, 2018, 2017, 2016, 2015];

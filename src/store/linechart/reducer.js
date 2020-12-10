@@ -6,7 +6,7 @@ const initialState = {
   lineChart: {
     data: [],
   },
-  languages: ['JavaScript', 'TypeScript', 'Python'],
+  languages: ['React', 'JavaScript', 'TypeScript', 'Python'],
   month: '0',
   year: 2018,
 };

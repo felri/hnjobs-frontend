@@ -29,7 +29,7 @@ function Home(props) {
     data: [
       {
         click: function (e) {
-          console.log(e);
+          dispatch({ type: types.SET_SEARCH, payload: e.dataPoint.label });
         },
         type: 'pie',
         toolTipContent: '{label}: {y}% - {count} mentions',
