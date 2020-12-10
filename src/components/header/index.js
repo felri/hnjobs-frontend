@@ -26,6 +26,10 @@ function Header(props) {
     dispatch({ type: types.SET_SEARCH, payload: text });
   }, [value]);
 
+  React.useEffect(() => {
+    setText('');
+  }, [year, month]);
+
   const onChange = (value) => {
     setText(value);
   };

@@ -29,10 +29,13 @@
   font-weight: 500;
 }
 
-.container-open-dropdown {
-  padding: 0 40px;
+.container-open-dropdown-language {
+  padding: 0 20px 0 40px;
   font-size: 22px;
   font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .job {
@@ -71,4 +74,11 @@
 
 .svg-dropdown-option:hover {
   opacity: 0.7;
+}
+
+@media only screen and (max-width: 750px) {
+  .container-open-dropdown-language {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
 }

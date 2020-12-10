@@ -24,6 +24,7 @@ export const PieChartSvg = (props) => {
 export const ArrowDownSvg = (props) => {
   return (
     <svg
+      style={{ marginLeft: 5 }}
       xmlns='http://www.w3.org/2000/svg'
       viewBox='0 0 451.847 451.847'
       {...props}

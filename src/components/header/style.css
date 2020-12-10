@@ -29,3 +29,9 @@
 .container-dropdown-header {
   margin-left: 148px;
 }
+
+@media only screen and (max-width: 750px) {
+  .container-dropdown-header {
+    margin-left: 0px !important;
+  }
+}

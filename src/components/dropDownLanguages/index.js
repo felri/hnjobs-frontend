@@ -77,7 +77,7 @@ function DropDown(props) {
     <div className='container-options-dropdown'>
       <div className=' years container-btn-modal'>
         <div></div>
-        <div className='container-open-dropdown' onClick={handleModal}>
+        <div className='container-open-dropdown-language' onClick={handleModal}>
           Languages - Frameworks - Databases <ArrowDownSvg height={15} />
         </div>
       </div>
