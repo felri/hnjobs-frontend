@@ -27,7 +27,7 @@ function Home(props) {
     animationEnabled: true,
     theme: 'light2', // "light1", "dark1", "dark2"
     axisY: {
-      title: 'Language mentions',
+      title: 'Language mentions %',
       interval: 5,
       suffix: '%',
     },

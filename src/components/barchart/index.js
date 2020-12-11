@@ -26,7 +26,7 @@ function Home(props) {
     animationEnabled: true,
     theme: 'light2',
     axisY: {
-      title: 'Language mentions',
+      title: 'Language mentions per month',
       includeZero: false,
     },
     axisX: {
