@@ -139,12 +139,15 @@
   --font: #3d405b;
 }
 
+* {
+  white-space: pre-wrap;
+}
+
 body {
   color: var(--font) !important;
   margin: 0;
   background-color: var(--main-bg-color);
   font-family: 'Montserrat';
-  white-space: pre-wrap !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
